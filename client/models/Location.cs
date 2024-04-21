@@ -10,6 +10,7 @@ namespace client.models
     {
         private String id;
         private String name;
+
         private Double latitude;
         private Double longitude;
 
