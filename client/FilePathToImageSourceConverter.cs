@@ -12,7 +12,7 @@ namespace client
             var path = value as string;
             if (!string.IsNullOrEmpty(path))
             {
-                return new BitmapImage(new Uri("C:\\Users\\Ale\\Desktop\\florin.jpg"));
+                return new BitmapImage(new Uri("https://upload.wikimedia.org/wikipedia/commons/b/b6/Florin_Salam.png"));
             }
 
             return null;
