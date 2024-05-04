@@ -7,12 +7,6 @@ using Newtonsoft.Json.Linq;
 
 namespace client.repositories
 {
-    internal interface ILocationRepository
-    {
-        Task<Location> GetLocationDetails(string locationId);
-        Task<List<Location>> SearchLocations(string query);
-    }
-
     internal class LocationRepository : ILocationRepository
     {
         private readonly HttpClient _httpClient;

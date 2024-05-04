@@ -12,13 +12,6 @@ using System.Windows;
 
 namespace client.repositories
 {
-    internal interface IPostArchivedRepository
-    {
-        bool addPostArchivedToDB(PostArchived postArchived);
-        List<PostArchived> getAll();
-        bool removePostArchivedFromDB(PostArchived postArchived);
-    }
-
     internal class PostArchivedRepository : IPostArchivedRepository
     {
 

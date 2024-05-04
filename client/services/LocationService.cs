@@ -6,15 +6,10 @@ using System.Threading.Tasks;
 using System.Windows.Documents;
 using client.models;
 using client.repositories;
+using client.servicesInterfaces;
 
 namespace client.services
 {
-    internal interface ILocationService
-    {
-        Task<Location> GetLocationById(string locationId);
-        Task<List<Location>> SearchLocations(string querry);
-    }
-
     internal class LocationService : ILocationService
     {
         private ILocationRepository _locationRepository;

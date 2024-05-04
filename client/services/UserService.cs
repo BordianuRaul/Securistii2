@@ -6,15 +6,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 using client.models;
+using client.servicesInterfaces;
 
 namespace client.services
 {
-    interface IUserService
-    {
-        List<User> getAllUsers();
-        User getUserById(Guid id);
-    }
-
     class UserService : IUserService
     {
         private IUserRepository _userRepository;

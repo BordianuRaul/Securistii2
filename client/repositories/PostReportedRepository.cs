@@ -13,13 +13,6 @@ using System.Windows;
 
 namespace client.repositories
 {
-    internal interface IPostReportedRepository
-    {
-        bool addReportedPostToDB(PostReported postReported);
-        List<PostReported> getAll();
-        bool removeReportedPostFromDB(PostReported postReported);
-    }
-
     internal class PostReportedRepository : IPostReportedRepository
     {
         private DatabaseConnection dbInstance;

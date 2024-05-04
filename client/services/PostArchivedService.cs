@@ -5,16 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using client.models;
 using client.repositories;
+using client.servicesInterfaces;
 
 namespace client.services
 {
-    internal interface IPostArchivedService
-    {
-        bool addPostArchived(PostArchived postArchived);
-        List<PostArchived> getPostArchivedList();
-        bool removePostArchived(PostArchived postArchived);
-    }
-
     internal class PostArchivedService : IPostArchivedService
     {
         IPostArchivedRepository postArchivedRepository;
