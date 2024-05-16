@@ -12,13 +12,6 @@ using System.Windows;
 
 namespace client.repositories
 {
-    internal interface IPostSavedRepository
-    {
-        bool addPostSavedtoDB(PostSaved postSaved);
-        List<PostSaved> getAll();
-        bool removePostSavedFromDB(PostSaved postSaved);
-    }
-
     internal class PostSavedRepository : IPostSavedRepository
     {
 

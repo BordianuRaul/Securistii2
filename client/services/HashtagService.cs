@@ -1,6 +1,7 @@
 ﻿using client.models;
 using client.modules;
 using client.repositories;
+using client.servicesInterfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,16 +10,6 @@ using System.Threading.Tasks;
 
 namespace client.services
 {
-    internal interface IHashtagService
-    {
-        bool addHashtag(string name);
-        bool addPostToHashtag(Guid postId, string hashtagName);
-        List<Post> getAllPostsFromHashtag(string name);
-        bool removeHashtag(string id);
-        bool removePostFromHashtag(Guid postId, string hashtagName);
-        Hashtag searchHashtag(string name);
-    }
-
     internal class HashtagService : IHashtagService
     {
         private IHashtagRepository hashtagRepository;

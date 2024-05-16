@@ -8,12 +8,6 @@ using Microsoft.Data.SqlClient;
 
 namespace client.repositories
 {
-    interface IUserRepository
-    {
-        List<User> getAllUsers();
-        User getUserById(Guid id);
-    }
-
     class UserRepository : IUserRepository
     {
         private DatabaseConnection dbInstance;

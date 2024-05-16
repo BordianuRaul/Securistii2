@@ -5,16 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using client.models;
 using client.repositories;
+using client.servicesInterfaces;
 
 namespace client.services
 {
-    internal interface IPostSavedService
-    {
-        bool addPostSaved(PostSaved postSaved);
-        List<PostSaved> getPostSavedList();
-        bool removePostSaved(PostSaved postSaved);
-    }
-
     internal class PostSavedService : IPostSavedService
     {
         IPostSavedRepository postSavedRepository;

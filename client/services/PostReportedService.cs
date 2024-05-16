@@ -5,15 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using client.models;
 using client.repositories;
+using client.servicesInterfaces;
 namespace client.services
 {
-    internal interface IPostReportedService
-    {
-        bool addPostReported(PostReported postReported);
-        List<PostReported> getPostReportedList();
-        bool removePostReported(PostReported postReported);
-    }
-
     internal class PostReportedService : IPostReportedService
     {
         IPostReportedRepository postReportedRepository;
