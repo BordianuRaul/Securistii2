@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\eu\\Documente\\Documente facultate\\SEM 4\\ISS\\tema6iss\\Server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|d:\\eu\\documente\\documente facultate\\sem 4\\iss\\tema6iss\\server\\server\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|solutionrelative:server\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|d:\\eu\\documente\\documente facultate\\sem 4\\iss\\tema6iss\\server\\server\\utils\\dtotobaseconverters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|solutionrelative:server\\utils\\dtotobaseconverters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|d:\\eu\\documente\\documente facultate\\sem 4\\iss\\tema6iss\\server\\server\\utils\\basetodtoconverters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|solutionrelative:server\\utils\\basetodtoconverters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|d:\\eu\\documente\\documente facultate\\sem 4\\iss\\tema6iss\\server\\server\\databasecontext\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|solutionrelative:server\\databasecontext\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|d:\\eu\\documente\\documente facultate\\sem 4\\iss\\tema6iss\\server\\server\\dtos\\locationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|solutionrelative:server\\dtos\\locationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|d:\\eu\\documente\\documente facultate\\sem 4\\iss\\tema6iss\\server\\server\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|solutionrelative:server\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LocationsController.cs",
+              "DocumentMoniker": "D:\\eu\\Documente\\Documente facultate\\SEM 4\\ISS\\tema6iss\\Server\\Server\\Controllers\\LocationsController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\LocationsController.cs",
+              "ToolTip": "D:\\eu\\Documente\\Documente facultate\\SEM 4\\ISS\\tema6iss\\Server\\Server\\Controllers\\LocationsController.cs",
+              "RelativeToolTip": "Server\\Controllers\\LocationsController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwGkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T14:52:50.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DTOToBaseConverters.cs",
+              "DocumentMoniker": "D:\\eu\\Documente\\Documente facultate\\SEM 4\\ISS\\tema6iss\\Server\\Server\\Utils\\DTOToBaseConverters.cs",
+              "RelativeDocumentMoniker": "Server\\Utils\\DTOToBaseConverters.cs",
+              "ToolTip": "D:\\eu\\Documente\\Documente facultate\\SEM 4\\ISS\\tema6iss\\Server\\Server\\Utils\\DTOToBaseConverters.cs",
+              "RelativeToolTip": "Server\\Utils\\DTOToBaseConverters.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T13:07:21.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseToDTOConverters.cs",
+              "DocumentMoniker": "D:\\eu\\Documente\\Documente facultate\\SEM 4\\ISS\\tema6iss\\Server\\Server\\Utils\\BaseToDTOConverters.cs",
+              "RelativeDocumentMoniker": "Server\\Utils\\BaseToDTOConverters.cs",
+              "ToolTip": "D:\\eu\\Documente\\Documente facultate\\SEM 4\\ISS\\tema6iss\\Server\\Server\\Utils\\BaseToDTOConverters.cs",
+              "RelativeToolTip": "Server\\Utils\\BaseToDTOConverters.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAADJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T13:04:26.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProjectDBContext.cs",
+              "DocumentMoniker": "D:\\eu\\Documente\\Documente facultate\\SEM 4\\ISS\\tema6iss\\Server\\Server\\DatabaseContext\\ProjectDBContext.cs",
+              "RelativeDocumentMoniker": "Server\\DatabaseContext\\ProjectDBContext.cs",
+              "ToolTip": "D:\\eu\\Documente\\Documente facultate\\SEM 4\\ISS\\tema6iss\\Server\\Server\\DatabaseContext\\ProjectDBContext.cs",
+              "RelativeToolTip": "Server\\DatabaseContext\\ProjectDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T12:58:59.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LocationDTO.cs",
+              "DocumentMoniker": "D:\\eu\\Documente\\Documente facultate\\SEM 4\\ISS\\tema6iss\\Server\\Server\\DTOs\\LocationDTO.cs",
+              "RelativeDocumentMoniker": "Server\\DTOs\\LocationDTO.cs",
+              "ToolTip": "D:\\eu\\Documente\\Documente facultate\\SEM 4\\ISS\\tema6iss\\Server\\Server\\DTOs\\LocationDTO.cs",
+              "RelativeToolTip": "Server\\DTOs\\LocationDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T12:57:08.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Location.cs",
+              "DocumentMoniker": "D:\\eu\\Documente\\Documente facultate\\SEM 4\\ISS\\tema6iss\\Server\\Server\\Models\\Location.cs",
+              "RelativeDocumentMoniker": "Server\\Models\\Location.cs",
+              "ToolTip": "D:\\eu\\Documente\\Documente facultate\\SEM 4\\ISS\\tema6iss\\Server\\Server\\Models\\Location.cs",
+              "RelativeToolTip": "Server\\Models\\Location.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T12:52:25.29Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
