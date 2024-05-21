@@ -53,7 +53,7 @@ namespace client {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/client;V1.0.0.0;component/postwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/client;component/postwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\PostWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
