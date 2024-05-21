@@ -16,25 +16,25 @@ namespace Server.Controllers
     [ApiController]
     public class LocationsController : ControllerBase
     {
-        private readonly ProjectDBContext _context;
+        private readonly ProjectDBContext context;
 
         public LocationsController(ProjectDBContext context)
         {
-            _context = context;
+            this.context = context;
         }
 
         // GET: api/Locations
         [HttpGet]
         public async Task<ActionResult<IEnumerable<LocationDTO>>> GetLocations()
         {
-            return await _context.Locations.Select(element => BaseToDTOConverters.Converter_LocationToDTO(element)).ToListAsync();
+            return await context.Locations.Select(element => BaseToDTOConverters.Converter_LocationToDTO(element)).ToListAsync();
         }
 
         // GET: api/Locations/5
         [HttpGet("{id}")]
         public async Task<ActionResult<LocationDTO>> GetLocation(int id)
         {
-            var location = await _context.Locations.FindAsync(id);
+            var location = await context.Locations.FindAsync(id);
 
             if (location == null)
             {
@@ -55,11 +55,11 @@ namespace Server.Controllers
             }
 
             var locationRef = DTOToBaseConverters.Converter_DTOToLocation(location);
-            _context.Entry(locationRef).State = EntityState.Modified;
+            context.Entry(locationRef).State = EntityState.Modified;
 
             try
             {
-                await _context.SaveChangesAsync();
+                await context.SaveChangesAsync();
             }
             catch (DbUpdateConcurrencyException)
             {
@@ -82,8 +82,8 @@ namespace Server.Controllers
         public async Task<ActionResult<LocationDTO>> PostLocation(LocationDTO location)
         {
             var locationRef = DTOToBaseConverters.Converter_DTOToLocation(location);
-            _context.Locations.Add(locationRef);
-            await _context.SaveChangesAsync();
+            context.Locations.Add(locationRef);
+            await context.SaveChangesAsync();
 
             location.Id = locationRef.Id;
             return CreatedAtAction("GetLocation", new { id = location.Id }, location);
@@ -93,21 +93,21 @@ namespace Server.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteLocation(int id)
         {
-            var location = await _context.Locations.FindAsync(id);
+            var location = await context.Locations.FindAsync(id);
             if (location == null)
             {
                 return NotFound();
             }
 
-            _context.Locations.Remove(location);
-            await _context.SaveChangesAsync();
+            context.Locations.Remove(location);
+            await context.SaveChangesAsync();
 
             return NoContent();
         }
 
         private bool LocationExists(int id)
         {
-            return _context.Locations.Any(e => e.Id == id);
+            return context.Locations.Any(e => e.Id == id);
         }
     }
 }
