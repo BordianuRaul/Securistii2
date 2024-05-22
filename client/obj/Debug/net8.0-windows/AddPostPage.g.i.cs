@@ -149,7 +149,7 @@ namespace client {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/client;V1.0.0.0;component/addpostpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/client;component/addpostpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AddPostPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

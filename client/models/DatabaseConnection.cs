@@ -16,7 +16,7 @@ public sealed class DatabaseConnection
 
 	private DatabaseConnection()
 	{
-		builder.ConnectionString = $"Data Source=DESKTOP-69V3Q5U\\SQLEXPRESS;Initial Catalog = blank-feed;TrustServerCertificate=True;MultipleActiveResultSets=True; Trusted_Connection=True";
+		builder.ConnectionString = $"Data Source=localhost;Initial Catalog = blank-feed;TrustServerCertificate=True;MultipleActiveResultSets=True; Trusted_Connection=True";
 		// Initialize your database connection here
 		connection = new SqlConnection(builder.ConnectionString);
 		

@@ -10,5 +10,6 @@ namespace Server.DatabaseContext
         }
 
         public DbSet<Location> Locations { get; set; } = null!;
+        public DbSet<Post> Posts { get; set; } = null!;
     }
 }
