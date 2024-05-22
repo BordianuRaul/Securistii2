@@ -24,5 +24,78 @@ namespace Server.Controllers
         {
             return await context.Posts.Select(element => BaseToDTOConverters.Converter_PostToDTO(element)).ToListAsync();
         }
+
+        [HttpGet("{postid}")]
+        public async Task<ActionResult<PostDTO>>GetPost(string postid)
+        {
+            var post = await context.Posts.FindAsync(postid);
+            if (post == null)
+            {
+                   return NotFound();
+            }
+            return BaseToDTOConverters.Converter_PostToDTO(post);
+        }
+
+        [HttpPut("{postid}")]
+        public async Task<IActionResult> PutPost(string postid, PostDTO post)
+        {
+
+            if (postid != post.Post_Id)
+            {
+                return BadRequest();
+            }
+
+            var postRef = DTOToBaseConverters.Converter_DTOToPost(post);
+            context.Entry(postRef).State = EntityState.Modified;
+
+            try
+            {
+                await context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!PostExists(postid))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return NoContent();
+
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<PostDTO>> PostPost(PostDTO post)
+        {
+            var postRef = DTOToBaseConverters.Converter_DTOToPost(post);
+            context.Posts.Add(postRef);
+            await context.SaveChangesAsync();
+
+            return CreatedAtAction("GetPost", new { id = post.Post_Id }, post);
+        }
+
+        [HttpDelete("{postid}")]
+        public async Task<IActionResult> DeletePost(string postid)
+        {
+            var post = await context.Posts.FindAsync(postid);
+            if (post == null)
+            {
+                return NotFound();
+            }
+
+            context.Posts.Remove(post);
+            await context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        private bool PostExists(string postid)
+        {
+            return context.Posts.Any(e => e.Post_Id == postid);
+        }
     }
 }
