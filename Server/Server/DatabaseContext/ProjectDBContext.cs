@@ -15,5 +15,7 @@ namespace Server.DatabaseContext
         public DbSet<Post> Posts { get; set; } = null!;
         public DbSet<PostArchived> PostArchived { get; set; } = null!;
         public DbSet<PostSaved> PostSaved { get; set; } = null!;
+        public DbSet<Block> Block { get; set; } = null!;
+        public DbSet<Follow> Follow { get; set; } = null!;
     }
 }
