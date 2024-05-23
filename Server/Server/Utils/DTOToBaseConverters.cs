@@ -13,5 +13,7 @@ namespace Server.Utils
 
         public static PostArchived Converter_DTOToPostArchived(PostArchivedDTO postArchivedDTO) => new PostArchived { post_id = postArchivedDTO.post_id, archive_id = postArchivedDTO.archive_id };
         public static PostSaved Converter_DTOToPostSaved(PostSavedDTO postSavedDTO) => new PostSaved { save_id = postSavedDTO.save_id, post_id = postSavedDTO.post_id, user_id = postSavedDTO.user_id };
+    
+        public static PostReportedDTO Converter_PostReportedToDTO(PostReported postReported) => new PostReportedDTO { Report_Id = postReported.Report_Id, Reason = postReported.Reason, Description = postReported.Description, Post_Id = postReported.Post_Id, Reporter_Id = postReported.Reporter_Id };
     }
 }
