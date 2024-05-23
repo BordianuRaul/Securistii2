@@ -5,6 +5,8 @@ namespace Server.Utils
 {
     public class BaseToDTOConverters
     {
+        public static UserDTO Converter_UserToDTO(User user) => new UserDTO { Id = user.Id, Username = user.Username, ProfilePicturePath = user.ProfilePicturePath };
+        public static MediaDTO Converter_MediaToDTO(Media media) => new MediaDTO { Id = media.Id, FilePath = media.FilePath };
         public static LocationDTO Converter_LocationToDTO(Location location) => new LocationDTO { Id = location.Id, Name = location.Name, Latitude = location.Latitude, Longitude = location.Longitude };
 
         public static PostArchivedDTO Converter_PostArchivedToDTO(PostArchived postArchived) => new PostArchivedDTO { post_id = postArchived.post_id, archive_id = postArchived.archive_id };
