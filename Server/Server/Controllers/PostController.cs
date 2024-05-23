@@ -26,7 +26,7 @@ namespace Server.Controllers
         }
 
         [HttpGet("{postid}")]
-        public async Task<ActionResult<PostDTO>>GetPost(string postid)
+        public async Task<ActionResult<PostDTO>>GetPost(int postid)
         {
             var post = await context.Posts.FindAsync(postid);
             if (post == null)
@@ -37,7 +37,7 @@ namespace Server.Controllers
         }
 
         [HttpPut("{postid}")]
-        public async Task<IActionResult> PutPost(string postid, PostDTO post)
+        public async Task<IActionResult> PutPost(int postid, PostDTO post)
         {
 
             if (postid != post.Post_Id)
@@ -75,11 +75,12 @@ namespace Server.Controllers
             context.Posts.Add(postRef);
             await context.SaveChangesAsync();
 
-            return CreatedAtAction("GetPost", new { id = post.Post_Id }, post);
+            post.Post_Id = postRef.Post_Id;
+            return CreatedAtAction("GetPost", new { postid = post.Post_Id }, post);
         }
 
         [HttpDelete("{postid}")]
-        public async Task<IActionResult> DeletePost(string postid)
+        public async Task<IActionResult> DeletePost(int postid)
         {
             var post = await context.Posts.FindAsync(postid);
             if (post == null)
@@ -93,7 +94,7 @@ namespace Server.Controllers
             return NoContent();
         }
 
-        private bool PostExists(string postid)
+        private bool PostExists(int postid)
         {
             return context.Posts.Any(e => e.Post_Id == postid);
         }

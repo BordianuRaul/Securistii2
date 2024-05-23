@@ -13,6 +13,8 @@ namespace Server.Utils
 
         public static PostArchived Converter_DTOToPostArchived(PostArchivedDTO postArchivedDTO) => new PostArchived { post_id = postArchivedDTO.post_id, archive_id = postArchivedDTO.archive_id };
         public static PostSaved Converter_DTOToPostSaved(PostSavedDTO postSavedDTO) => new PostSaved { save_id = postSavedDTO.save_id, post_id = postSavedDTO.post_id, user_id = postSavedDTO.user_id };
+    
+        public static PostReportedDTO Converter_PostReportedToDTO(PostReported postReported) => new PostReportedDTO { Report_Id = postReported.Report_Id, Reason = postReported.Reason, Description = postReported.Description, Post_Id = postReported.Post_Id, Reporter_Id = postReported.Reporter_Id };
         public static Block Converter_DTOToBlock(BlockDTO blockDTO) => new Block { Id = blockDTO.Id, sender = blockDTO.sender, receiver = blockDTO.receiver, startingTimeStamp = blockDTO.startingTimeStamp, reason = blockDTO.reason };
         public static Follow Converter_DTOToFollow(FollowDTO followDTO) => new Follow { Id = followDTO.Id, sender = followDTO.sender, receiver = followDTO.receiver, isCloseFriend = followDTO.isCloseFriend, expirationTimeStamp = followDTO.expirationTimeStamp, description = followDTO.description };
     }
