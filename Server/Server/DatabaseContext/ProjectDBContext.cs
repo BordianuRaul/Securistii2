@@ -10,6 +10,8 @@ namespace Server.DatabaseContext
         }
 
         public DbSet<Location> Locations { get; set; } = null!;
+        public DbSet<Media> Medias { get; set; } = null!;
+        public DbSet<User> Users { get; set; } = null!;
         public DbSet<Post> Posts { get; set; } = null!;
         public DbSet<PostArchived> PostArchived { get; set; } = null!;
         public DbSet<PostSaved> PostSaved { get; set; } = null!;
