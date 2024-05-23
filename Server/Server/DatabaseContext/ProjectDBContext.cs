@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Server.Models;
+using UBB_SE_2024_Gaborment.Server.Models;
 
 namespace Server.DatabaseContext
 {
@@ -13,5 +14,6 @@ namespace Server.DatabaseContext
         public DbSet<Post> Posts { get; set; } = null!;
         public DbSet<PostArchived> PostArchived { get; set; } = null!;
         public DbSet<PostSaved> PostSaved { get; set; } = null!;
+        public DbSet<FeedConfiguration> FeedConfigurations { get; set; } = null!;
     }
 }
