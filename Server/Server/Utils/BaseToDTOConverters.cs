@@ -1,4 +1,5 @@
-﻿using Server.DTOs;
+﻿using NuGet.Protocol.Plugins;
+using Server.DTOs;
 using Server.Models;
 
 namespace Server.Utils
@@ -15,5 +16,7 @@ namespace Server.Utils
         public static PostDTO Converter_PostToDTO(Post post) => new PostDTO { Post_Id = post.Post_Id, Owner_User_Id = post.Owner_User_Id, Description = post.Description, Commented_Post_Id = post.Commented_Post_Id, Original_Post_Id = post.Original_Post_Id, Media_Path = post.Media_Path, Post_Type = post.Post_Type, Location_Id = post.Location_Id, Created_Date = post.Created_Date };
     
         public static PostReported Converter_PostReportedDTO(PostReportedDTO postReportedDTO) => new PostReported { Report_Id = postReportedDTO.Report_Id, Reason = postReportedDTO.Reason, Description = postReportedDTO.Description, Post_Id = postReportedDTO.Post_Id, Reporter_Id = postReportedDTO.Reporter_Id };
+        public static BlockDTO Converter_BlockToDTO(Block block) => new BlockDTO { Id = block.Id, sender = block.sender, receiver = block.receiver, startingTimeStamp = block.startingTimeStamp,  reason = block.reason };
+        public static FollowDTO Converter_FollowToDTO(Follow follow) => new FollowDTO { Id = follow.Id, sender = follow.sender, receiver = follow.receiver, isCloseFriend = follow.isCloseFriend, expirationTimeStamp = follow.expirationTimeStamp, description = follow.description };
     }
 }
