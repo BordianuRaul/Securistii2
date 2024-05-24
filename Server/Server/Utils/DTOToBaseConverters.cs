@@ -24,6 +24,8 @@ namespace Server.Utils
         public static TrendingFeed Converter_DTOToTrendingFeed(TrendingFeedDTO trendingFeedDTO) => new TrendingFeed { ID = trendingFeedDTO.ID, Name = trendingFeedDTO.Name, ReactionThreshold = trendingFeedDTO.ReactionThreshold, LikeCount = trendingFeedDTO.LikeCount, ViewCount = trendingFeedDTO.ViewCount, CommentCount = trendingFeedDTO.CommentCount };
 
         public static FollowedFeedFollowedUsers Converter_DTOToFollowedFeedFollowedUsers(FollowedFeedFollowedUsersDTO followedFeedFollowedUsersDTO) => new FollowedFeedFollowedUsers { ID = followedFeedFollowedUsersDTO.ID, FollowedFeedID = followedFeedFollowedUsersDTO.FollowedFeedID, FollowedUserID = followedFeedFollowedUsersDTO.FollowedUserID };
+        public static FollowSuggestion Converter_DTOToFollowSuggestion(FollowSuggestionDTO followSuggestionDTO) => new FollowSuggestion { Id = followSuggestionDTO.Id, userId = followSuggestionDTO.userId, username = followSuggestionDTO.username, numberOfCommonFriends = followSuggestionDTO.numberOfCommonFriends, numberOfCommonGroups = followSuggestionDTO.numberOfCommonGroups, numberOfCommonOrganizations = followSuggestionDTO.numberOfCommonOrganizations, numberOfCommonTags = followSuggestionDTO.numberOfCommonTags, location = followSuggestionDTO.location };
+
     }
 
 }
