@@ -25,5 +25,7 @@ namespace Server.Utils
         public static TrendingFeedDTO Converter_TrendingFeedToDTO(TrendingFeed trendingFeed) => new TrendingFeedDTO { ID = trendingFeed.ID, Name = trendingFeed.Name, ReactionThreshold = trendingFeed.ReactionThreshold, LikeCount = trendingFeed.LikeCount, ViewCount = trendingFeed.ViewCount, CommentCount = trendingFeed.CommentCount };
 
         public static FollowedFeedFollowedUsersDTO Converter_FollowedFeedFollowedUsersToDTO(FollowedFeedFollowedUsers followedFeedFollowedUsers) => new FollowedFeedFollowedUsersDTO { ID = followedFeedFollowedUsers.ID, FollowedFeedID = followedFeedFollowedUsers.FollowedFeedID, FollowedUserID = followedFeedFollowedUsers.FollowedUserID };
+
+        public static RequestDTO Converter_RequestToDTO(Request request) => new RequestDTO { Id = request.Id, ReceiverId = request.ReceiverId, SenderId = request.SenderId};
     }
 }
