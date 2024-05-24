@@ -30,5 +30,7 @@ namespace Server.Utils
 
 
         public static FollowSuggestionDTO Converter_FollowSuggestionDTO(FollowSuggestion followSuggestion) => new FollowSuggestionDTO { Id = followSuggestion.Id, userId = followSuggestion.userId, username = followSuggestion.username, numberOfCommonFriends = followSuggestion.numberOfCommonFriends, numberOfCommonGroups = followSuggestion.numberOfCommonGroups, numberOfCommonOrganizations = followSuggestion.numberOfCommonOrganizations, numberOfCommonTags = followSuggestion.numberOfCommonTags, location = followSuggestion.location };
+
+        public static RequestDTO Converter_RequestToDTO(Request request) => new RequestDTO { Id = request.Id, ReceiverId = request.ReceiverId, SenderId = request.SenderId };
     }
 }

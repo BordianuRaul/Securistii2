@@ -27,5 +27,7 @@ namespace Server.DatabaseContext
         public DbSet<FollowingFeed> FollowingFeeds { get; set; } = null!;
         public DbSet<Comment> Comments { get; set; } = null!;
         public DbSet<FollowSuggestion> FollowSuggestions { get; set; } = null!;
+
+        public DbSet<Request> Requests { get; set; } = null!;
     }
 }

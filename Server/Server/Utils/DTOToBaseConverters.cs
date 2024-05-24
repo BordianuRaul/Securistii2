@@ -28,6 +28,7 @@ namespace Server.Utils
         public static Comment Converter_DTOToComment(CommentDTO commentDTO) => new Comment { Id = commentDTO.Id, Post_Id = commentDTO.Post_Id, Owner_User_Id = commentDTO.Owner_User_Id, Description = commentDTO.Description };
         public static FollowSuggestion Converter_DTOToFollowSuggestion(FollowSuggestionDTO followSuggestionDTO) => new FollowSuggestion { Id = followSuggestionDTO.Id, userId = followSuggestionDTO.userId, username = followSuggestionDTO.username, numberOfCommonFriends = followSuggestionDTO.numberOfCommonFriends, numberOfCommonGroups = followSuggestionDTO.numberOfCommonGroups, numberOfCommonOrganizations = followSuggestionDTO.numberOfCommonOrganizations, numberOfCommonTags = followSuggestionDTO.numberOfCommonTags, location = followSuggestionDTO.location };
 
+        public static Request Converter_DTOToRequest(RequestDTO requestDTO) => new Request { Id = requestDTO.Id, ReceiverId = requestDTO.ReceiverId, SenderId = requestDTO.SenderId };
     }
 
 }
