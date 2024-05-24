@@ -22,6 +22,8 @@ namespace Server.Utils
 
         public static ControversialFeed Converter_DTOToControversialFeed(ControversialFeedDTO controversialFeedDTO) => new ControversialFeed { ID = controversialFeedDTO.ID, Name = controversialFeedDTO.Name, ReactionThreshold = controversialFeedDTO.ReactionThreshold, MinimumReactionCount = controversialFeedDTO.MinimumReactionCount, MinimumCommentCount = controversialFeedDTO.MinimumCommentCount };
         public static TrendingFeed Converter_DTOToTrendingFeed(TrendingFeedDTO trendingFeedDTO) => new TrendingFeed { ID = trendingFeedDTO.ID, Name = trendingFeedDTO.Name, ReactionThreshold = trendingFeedDTO.ReactionThreshold, LikeCount = trendingFeedDTO.LikeCount, ViewCount = trendingFeedDTO.ViewCount, CommentCount = trendingFeedDTO.CommentCount };
+
+        public static FollowedFeedFollowedUsers Converter_DTOToFollowedFeedFollowedUsers(FollowedFeedFollowedUsersDTO followedFeedFollowedUsersDTO) => new FollowedFeedFollowedUsers { ID = followedFeedFollowedUsersDTO.ID, FollowedFeedID = followedFeedFollowedUsersDTO.FollowedFeedID, FollowedUserID = followedFeedFollowedUsersDTO.FollowedUserID };
     }
 
 }

@@ -23,5 +23,6 @@ namespace Server.DatabaseContext
         public DbSet<FeedConfiguration> FeedConfigurations { get; set; } = null!;
         public DbSet<ControversialFeed> ControversialFeeds { get; set; } = null!;
         public DbSet<TrendingFeed> TrendingFeeds { get; set; } = null!;
+        public DbSet<FollowedFeedFollowedUsers> FollowedFeedFollowedUsers { get; set; } = null!;
     }
 }
