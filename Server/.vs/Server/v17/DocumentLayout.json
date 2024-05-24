@@ -1,42 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alex\\Documents\\GitHub\\Securistii2\\Server\\",
+  "WorkspaceRootPath": "C:\\Users\\Badea Vlad\\Desktop\\iss_proiect\\Server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|c:\\users\\alex\\documents\\github\\securistii2\\server\\server\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|solutionrelative:server\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Badea Vlad\\Desktop\\iss_proiect\\Server\\Server\\Migrations\\20240524072427_Badea5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Server\\Migrations\\20240524072427_Badea5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|c:\\users\\alex\\documents\\github\\securistii2\\server\\server\\migrations\\20240521195854_test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|solutionrelative:server\\migrations\\20240521195854_test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|c:\\users\\badea vlad\\desktop\\iss_proiect\\server\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|solutionrelative:server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|c:\\users\\alex\\documents\\github\\securistii2\\server\\server\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|solutionrelative:server\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|c:\\users\\badea vlad\\desktop\\iss_proiect\\server\\server\\databasecontext\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|solutionrelative:server\\databasecontext\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|c:\\users\\alex\\documents\\github\\securistii2\\server\\server\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|solutionrelative:server\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|c:\\users\\alex\\documents\\github\\securistii2\\server\\server\\dtos\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|solutionrelative:server\\dtos\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|c:\\users\\alex\\documents\\github\\securistii2\\server\\server\\utils\\dtotobaseconverters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|c:\\users\\badea vlad\\desktop\\iss_proiect\\server\\server\\utils\\dtotobaseconverters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|solutionrelative:server\\utils\\dtotobaseconverters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|c:\\users\\alex\\documents\\github\\securistii2\\server\\server\\utils\\basetodtoconverters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|c:\\users\\badea vlad\\desktop\\iss_proiect\\server\\server\\utils\\basetodtoconverters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|solutionrelative:server\\utils\\basetodtoconverters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|c:\\users\\alex\\documents\\github\\securistii2\\server\\server\\dtos\\locationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|solutionrelative:server\\dtos\\locationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|c:\\users\\alex\\documents\\github\\securistii2\\server\\server\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD956226-6583-41B5-AB46-725C851B48A9}|Server\\Server.csproj|solutionrelative:server\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Badea Vlad\\Desktop\\iss_proiect\\Gaborment\\Server\\FeedConfigurations\\Feeds\\TrendingFeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -60,130 +47,84 @@
         },
         {
           "DockedWidth": 219,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20240521195854_test1.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Securistii2\\Server\\Server\\Migrations\\20240521195854_test1.cs",
-              "RelativeDocumentMoniker": "Server\\Migrations\\20240521195854_test1.cs",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Securistii2\\Server\\Server\\Migrations\\20240521195854_test1.cs",
-              "RelativeToolTip": "Server\\Migrations\\20240521195854_test1.cs",
+              "DocumentIndex": 0,
+              "Title": "20240524072427_Badea5.cs",
+              "DocumentMoniker": "C:\\Users\\Badea Vlad\\Desktop\\iss_proiect\\Server\\Server\\Migrations\\20240524072427_Badea5.cs",
+              "RelativeDocumentMoniker": "Server\\Migrations\\20240524072427_Badea5.cs",
+              "ToolTip": "C:\\Users\\Badea Vlad\\Desktop\\iss_proiect\\Server\\Server\\Migrations\\20240524072427_Badea5.cs",
+              "RelativeToolTip": "Server\\Migrations\\20240524072427_Badea5.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T18:27:37.219Z",
+              "WhenOpened": "2024-05-24T07:24:27.976Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DTOToBaseConverters.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Securistii2\\Server\\Server\\Utils\\DTOToBaseConverters.cs",
-              "RelativeDocumentMoniker": "Server\\Utils\\DTOToBaseConverters.cs",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Securistii2\\Server\\Server\\Utils\\DTOToBaseConverters.cs",
-              "RelativeToolTip": "Server\\Utils\\DTOToBaseConverters.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAA8AQAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T21:23:44.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PostController.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Securistii2\\Server\\Server\\Controllers\\PostController.cs",
-              "RelativeDocumentMoniker": "Server\\Controllers\\PostController.cs",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Securistii2\\Server\\Server\\Controllers\\PostController.cs",
-              "RelativeToolTip": "Server\\Controllers\\PostController.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAUwF0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T21:07:03.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PostDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Securistii2\\Server\\Server\\DTOs\\PostDTO.cs",
-              "RelativeDocumentMoniker": "Server\\DTOs\\PostDTO.cs",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Securistii2\\Server\\Server\\DTOs\\PostDTO.cs",
-              "RelativeToolTip": "Server\\DTOs\\PostDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T21:23:27.987Z",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Badea Vlad\\Desktop\\iss_proiect\\Server\\Server\\appsettings.json",
+              "RelativeDocumentMoniker": "Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\Badea Vlad\\Desktop\\iss_proiect\\Server\\Server\\appsettings.json",
+              "RelativeToolTip": "Server\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-24T07:23:10.002Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Post.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Securistii2\\Server\\Server\\Models\\Post.cs",
-              "RelativeDocumentMoniker": "Server\\Models\\Post.cs",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Securistii2\\Server\\Server\\Models\\Post.cs",
-              "RelativeToolTip": "Server\\Models\\Post.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBIAAABmAAAA",
+              "Title": "ProjectDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Badea Vlad\\Desktop\\iss_proiect\\Server\\Server\\DatabaseContext\\ProjectDBContext.cs",
+              "RelativeDocumentMoniker": "Server\\DatabaseContext\\ProjectDBContext.cs",
+              "ToolTip": "C:\\Users\\Badea Vlad\\Desktop\\iss_proiect\\Server\\Server\\DatabaseContext\\ProjectDBContext.cs",
+              "RelativeToolTip": "Server\\DatabaseContext\\ProjectDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T21:21:18.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BaseToDTOConverters.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Securistii2\\Server\\Server\\Utils\\BaseToDTOConverters.cs",
-              "RelativeDocumentMoniker": "Server\\Utils\\BaseToDTOConverters.cs",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Securistii2\\Server\\Server\\Utils\\BaseToDTOConverters.cs",
-              "RelativeToolTip": "Server\\Utils\\BaseToDTOConverters.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAYwAwAAAAqAQAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T21:22:55.957Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 203,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Location.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Securistii2\\Server\\Server\\Models\\Location.cs",
-              "RelativeDocumentMoniker": "Server\\Models\\Location.cs",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Securistii2\\Server\\Server\\Models\\Location.cs",
-              "RelativeToolTip": "Server\\Models\\Location.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T12:52:25.29Z",
+              "WhenOpened": "2024-05-24T06:23:54.939Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "LocationsController.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Securistii2\\Server\\Server\\Controllers\\LocationsController.cs",
-              "RelativeDocumentMoniker": "Server\\Controllers\\LocationsController.cs",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Securistii2\\Server\\Server\\Controllers\\LocationsController.cs",
-              "RelativeToolTip": "Server\\Controllers\\LocationsController.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Title": "DTOToBaseConverters.cs",
+              "DocumentMoniker": "C:\\Users\\Badea Vlad\\Desktop\\iss_proiect\\Server\\Server\\Utils\\DTOToBaseConverters.cs",
+              "RelativeDocumentMoniker": "Server\\Utils\\DTOToBaseConverters.cs",
+              "ToolTip": "C:\\Users\\Badea Vlad\\Desktop\\iss_proiect\\Server\\Server\\Utils\\DTOToBaseConverters.cs",
+              "RelativeToolTip": "Server\\Utils\\DTOToBaseConverters.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAgwBgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T17:56:45.909Z",
+              "WhenOpened": "2024-05-24T06:23:18.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LocationDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Securistii2\\Server\\Server\\DTOs\\LocationDTO.cs",
-              "RelativeDocumentMoniker": "Server\\DTOs\\LocationDTO.cs",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Securistii2\\Server\\Server\\DTOs\\LocationDTO.cs",
-              "RelativeToolTip": "Server\\DTOs\\LocationDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "BaseToDTOConverters.cs",
+              "DocumentMoniker": "C:\\Users\\Badea Vlad\\Desktop\\iss_proiect\\Server\\Server\\Utils\\BaseToDTOConverters.cs",
+              "RelativeDocumentMoniker": "Server\\Utils\\BaseToDTOConverters.cs",
+              "ToolTip": "C:\\Users\\Badea Vlad\\Desktop\\iss_proiect\\Server\\Server\\Utils\\BaseToDTOConverters.cs",
+              "RelativeToolTip": "Server\\Utils\\BaseToDTOConverters.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAiwBgAAABNAQAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T12:57:08.059Z",
+              "WhenOpened": "2024-05-24T06:22:16.675Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TrendingFeed.cs",
+              "DocumentMoniker": "C:\\Users\\Badea Vlad\\Desktop\\iss_proiect\\Gaborment\\Server\\FeedConfigurations\\Feeds\\TrendingFeed.cs",
+              "RelativeDocumentMoniker": "..\\Gaborment\\Server\\FeedConfigurations\\Feeds\\TrendingFeed.cs",
+              "ToolTip": "C:\\Users\\Badea Vlad\\Desktop\\iss_proiect\\Gaborment\\Server\\FeedConfigurations\\Feeds\\TrendingFeed.cs",
+              "RelativeToolTip": "..\\Gaborment\\Server\\FeedConfigurations\\Feeds\\TrendingFeed.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T06:20:38.761Z"
             }
           ]
         }
