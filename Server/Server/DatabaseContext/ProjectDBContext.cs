@@ -15,5 +15,7 @@ namespace Server.DatabaseContext
         public DbSet<PostArchived> PostArchived { get; set; } = null!;
         public DbSet<PostSaved> PostSaved { get; set; } = null!;
         public DbSet<FeedConfiguration> FeedConfigurations { get; set; } = null!;
+        public DbSet<ControversialFeed> ControversialFeeds { get; set; } = null!;
+        public DbSet<TrendingFeed> TrendingFeeds { get; set; } = null!;
     }
 }
