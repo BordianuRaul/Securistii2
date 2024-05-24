@@ -24,6 +24,8 @@ namespace Server.Utils
         public static TrendingFeed Converter_DTOToTrendingFeed(TrendingFeedDTO trendingFeedDTO) => new TrendingFeed { ID = trendingFeedDTO.ID, Name = trendingFeedDTO.Name, ReactionThreshold = trendingFeedDTO.ReactionThreshold, LikeCount = trendingFeedDTO.LikeCount, ViewCount = trendingFeedDTO.ViewCount, CommentCount = trendingFeedDTO.CommentCount };
 
         public static FollowedFeedFollowedUsers Converter_DTOToFollowedFeedFollowedUsers(FollowedFeedFollowedUsersDTO followedFeedFollowedUsersDTO) => new FollowedFeedFollowedUsers { ID = followedFeedFollowedUsersDTO.ID, FollowedFeedID = followedFeedFollowedUsersDTO.FollowedFeedID, FollowedUserID = followedFeedFollowedUsersDTO.FollowedUserID };
+        public static FollowingFeed Converter_DTOToFollowingFeed(FollowingFeedDTO followingFeedDTO) => new FollowingFeed { ID = followingFeedDTO.ID, Name = followingFeedDTO.Name, ReactionThreshold = followingFeedDTO.ReactionThreshold };
+        public static Comment Converter_DTOToComment(CommentDTO commentDTO) => new Comment { Id = commentDTO.Id, Post_Id = commentDTO.Post_Id, Owner_User_Id = commentDTO.Owner_User_Id, Description = commentDTO.Description };
         public static FollowSuggestion Converter_DTOToFollowSuggestion(FollowSuggestionDTO followSuggestionDTO) => new FollowSuggestion { Id = followSuggestionDTO.Id, userId = followSuggestionDTO.userId, username = followSuggestionDTO.username, numberOfCommonFriends = followSuggestionDTO.numberOfCommonFriends, numberOfCommonGroups = followSuggestionDTO.numberOfCommonGroups, numberOfCommonOrganizations = followSuggestionDTO.numberOfCommonOrganizations, numberOfCommonTags = followSuggestionDTO.numberOfCommonTags, location = followSuggestionDTO.location };
 
     }
