@@ -24,5 +24,7 @@ namespace Server.DatabaseContext
         public DbSet<ControversialFeed> ControversialFeeds { get; set; } = null!;
         public DbSet<TrendingFeed> TrendingFeeds { get; set; } = null!;
         public DbSet<FollowedFeedFollowedUsers> FollowedFeedFollowedUsers { get; set; } = null!;
+        public DbSet<FollowingFeed> FollowingFeeds { get; set; } = null!;
+        public DbSet<Comment> Comments { get; set; } = null!;
     }
 }
