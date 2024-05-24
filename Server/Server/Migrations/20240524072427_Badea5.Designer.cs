@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Server.DatabaseContext;
 
@@ -11,9 +12,11 @@ using Server.DatabaseContext;
 namespace Server.Migrations
 {
     [DbContext(typeof(ProjectDBContext))]
-    partial class ProjectDBContextModelSnapshot : ModelSnapshot
+    [Migration("20240524072427_Badea5")]
+    partial class Badea5
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

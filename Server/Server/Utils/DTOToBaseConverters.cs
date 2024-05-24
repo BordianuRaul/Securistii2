@@ -1,5 +1,6 @@
 ﻿using Server.DTOs;
 using Server.Models;
+using UBB_SE_2024_Gaborment.Server.Models;
 
 namespace Server.Utils
 {
@@ -17,6 +18,10 @@ namespace Server.Utils
         public static PostReportedDTO Converter_PostReportedToDTO(PostReported postReported) => new PostReportedDTO { Report_Id = postReported.Report_Id, Reason = postReported.Reason, Description = postReported.Description, Post_Id = postReported.Post_Id, Reporter_Id = postReported.Reporter_Id };
         public static Block Converter_DTOToBlock(BlockDTO blockDTO) => new Block { Id = blockDTO.Id, sender = blockDTO.sender, receiver = blockDTO.receiver, startingTimeStamp = blockDTO.startingTimeStamp, reason = blockDTO.reason };
         public static Follow Converter_DTOToFollow(FollowDTO followDTO) => new Follow { Id = followDTO.Id, sender = followDTO.sender, receiver = followDTO.receiver, isCloseFriend = followDTO.isCloseFriend, expirationTimeStamp = followDTO.expirationTimeStamp, description = followDTO.description };
+        public static FeedConfiguration Converter_DTOToFeedConfiguration(FeedConfigurationDTO feedConfigurationDTO) => new FeedConfiguration { ID = feedConfigurationDTO.ID, Name = feedConfigurationDTO.Name, ReactionThreshold = feedConfigurationDTO.ReactionThreshold };
+
+        public static ControversialFeed Converter_DTOToControversialFeed(ControversialFeedDTO controversialFeedDTO) => new ControversialFeed { ID = controversialFeedDTO.ID, Name = controversialFeedDTO.Name, ReactionThreshold = controversialFeedDTO.ReactionThreshold, MinimumReactionCount = controversialFeedDTO.MinimumReactionCount, MinimumCommentCount = controversialFeedDTO.MinimumCommentCount };
+        public static TrendingFeed Converter_DTOToTrendingFeed(TrendingFeedDTO trendingFeedDTO) => new TrendingFeed { ID = trendingFeedDTO.ID, Name = trendingFeedDTO.Name, ReactionThreshold = trendingFeedDTO.ReactionThreshold, LikeCount = trendingFeedDTO.LikeCount, ViewCount = trendingFeedDTO.ViewCount, CommentCount = trendingFeedDTO.CommentCount };
     }
 
 }
